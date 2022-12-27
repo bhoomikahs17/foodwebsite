@@ -1,0 +1,120 @@
+/*--menu--*/
+body{
+    font-size: 15px;
+    line-height: 1.52;
+    color:#717f86;
+    font-family: sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+    }
+ .container{
+    border: 1px solid black;
+    height: 218%;
+    font-family: sans-serif;
+ }
+.section-padding{
+    padding:60px,0px;
+}
+.marb-35{
+    margin-bottom: 35px;
+}
+.header-h{
+    font-size: 35px;
+    color:green;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: double;   
+}
+.col-md-12,.col-md-13{
+    text-align: center;
+    margin-left: 30px;
+}
+.header-p{
+    color:#9699a6;
+    font-size: 16px;
+
+}
+#col-1 ul li{
+    display: inline-block;
+    color:#fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+}
+#col-1 ul li a{
+    padding: 10px 20px;
+    font-size: 14px;
+    color:#565656;
+    border-radius: 0px;
+    border: 1px solid #BBBBBB;
+    text-decoration: none;
+    cursor:pointer;
+
+}
+#col-1 ul li a.filter1,#col-1 ul li a:hover{
+    background: green;
+    color: #fff;
+    border: 1px solid green;   
+}
+.menu-restaurant{
+    width:70%;
+    float: left;
+    padding: 15px;
+    position: relative;
+    margin-left: 130px;
+    text-decoration: none;
+}
+.menu-restaurant .menu-title{
+    float:left;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color:green;
+    text-decoration: none;
+}
+.menu-restaurant .menu-line{
+    position: absolute;
+    border-bottom: 1px dotted rgba(0,0,0,3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+    margin-top: 11px;
+
+
+}
+.menu-restaurant .menu-price{
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.menu-restaurant .menu-subtitle{
+    display: block;
+    font: left;
+    color: #0a0a0a;
+    font-size: 1.2re;
+}
+.menu-restaurant span.clearfix{
+    position: relative;
+    display: block;
+}
+
+.logo{
+   position: sticky;
+   top: 2rem;
+   text-align: center;
+
+   
+}
+/*.chat{
+    position: sticky;
+    right: 80px;
+    bottom: 100px;
+    width: 2%;
+    height: 5%;
+    margin-bottom: 100px;
+    padding: 0 9px 40px 0px;
+    margin-right: 80px;
+    color: green;
+}*/
